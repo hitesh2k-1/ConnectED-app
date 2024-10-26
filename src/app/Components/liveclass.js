@@ -9,7 +9,7 @@ const LiveClass = ({ isVisible, onClose }) => {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
             <div className="flex flex-col items-center justify-center min-h-screen max-w-[90vw] m-auto bg-transparent">
                 {/* Notification Banner */}
-                <div className="flex rounded-2xl px-8 items-center justify-center bg-white shadow-xl text-[#E66DFF] py-2 font-bold">
+                <div className="flex gap-2 rounded-2xl px-8 items-center justify-center bg-white shadow-xl text-[#E66DFF] py-2 font-bold">
                     <span className='text-3xl'><CiBellOn /></span>
                     <span>Class 7 Math is starting in 1 hour, 34 minutes.</span>
                 </div>

@@ -52,15 +52,15 @@ const Column1 = () => {
             <div className="lg:hidden">
                 <div className="text-start">
                     <h1 className="font-bold text-2xl text-black my-4">Quick Links</h1>
-                    <div className='flex items-center font-bold gap-6 my-2 bg-[#E66DFF] p-2 rounded-lg'>
+                    <div className='flex items-center font-bold gap-6 my-2 bg-[#E66DFF] hover:scale-105 duration-300 p-2 rounded-lg'>
                         <Image height={36} width={36} src="/images/id.png" alt="" />
                         <h2>Join Live Class</h2>
                     </div>
-                    <div className='flex items-center font-bold gap-6 my-2 bg-[#4749B3] p-2 rounded-lg'>
+                    <div className='flex items-center font-bold gap-6 my-2 bg-[#4749B3] p-2 rounded-lg hover:scale-105 duration-300'>
                         <Image height={36} width={36} src="/images/book.png" alt="" />
                         <h2>Canvas LMS</h2>
                     </div>
-                    <div className='flex items-center font-bold gap-6 my-2 bg-[#6669FE] p-2 rounded-lg'>
+                    <div className='flex items-center font-bold gap-6 my-2 bg-[#6669FE] p-2 rounded-lg hover:scale-105 duration-300'>
                         <Image height={36} width={36} src="/images/whatsapp.png" alt="" />
                         <h2>Contact Teacher</h2>
                     </div>
@@ -76,7 +76,7 @@ const Column1 = () => {
                             <div
                             onClick={openLiveClass}
                                 key={index}
-                                className='flex justify-between text-[#4749B3] items-center cursor-pointer py-1 px-4 my-2 bg-[#F2F2FF] md:bg-none rounded-lg hover:bg-[#E66DFF] hover:text-white hover:shadow-xl duration-300 hover:scale-105'
+                                className='flex justify-between text-[#4749B3] items-center cursor-pointer py-3 sm:p-1 px-4 my-3 sm:my-2 bg-[#F2F2FF] md:bg-none rounded-lg hover:bg-[#E66DFF] hover:text-white hover:shadow-xl duration-300 hover:scale-105'
                             >
                                 <div className="flex gap-4 items-center sm:m-2">
                                     <div className='text-2xl'>{scheduleItem.icon}</div>
