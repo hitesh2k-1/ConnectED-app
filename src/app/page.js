@@ -5,9 +5,9 @@ import Navbar from "./Components/Navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <Navbar/>
-      <div className="flex flex-col md:flex-row justify-evenly w-[90vw] my-8 gap-6 m-auto ">
+      <div className="flex flex-col md:flex-row justify-evenly w-[90vw] mt-5 gap-6 m-auto ">
       <Column1/>
       <Column2/>
       <Column3/>
