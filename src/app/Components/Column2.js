@@ -8,7 +8,6 @@ const Column2 = () => {
     const router = useRouter();
 
     const handleClick = () => {
-        // Replace '/live-class' with the route you want to navigate to
         router.push('/noliveclass');
     };
     return (

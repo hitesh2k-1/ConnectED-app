@@ -47,7 +47,6 @@ const Column3 = () => {
     ];
 
     if (!isHydrated) {
-        // If the component isn't hydrated yet, return null or a loader (if needed)
         return null;
     }
 
