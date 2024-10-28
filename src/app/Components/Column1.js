@@ -72,13 +72,13 @@ const Column1 = () => {
             <div className="w-full sm:hidden">
                 <div className="text-start">
                     <h1 className="font-bold text-2xl text-black my-4">Announcements</h1>
-                    <div className=" rounded-2xl bg-white my-4 p-2">
+                    <div className=" rounded-xl bg-white my-4 p-2">
                     <Slider {...settings}>
                         {announcements.map((announcement, index) => (
                             <div
                                 key={index} className='w-full' >
                                 <div
-                                className="flex gap-4 items-center text-[#4749B3] p-2 bg-[#F8F8F8] m-2 rounded-2xl ">
+                                className="flex gap-4 items-center text-[#4749B3] p-3 bg-[#F8F8F8] m-1 rounded-xl ">
                                 <Image height={24} width={24} src={announcement.src} alt="Announcement icon" />
                                 <p className="text-xs sm:text-sm">{announcement.info}</p>
                             </div>
